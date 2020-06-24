@@ -1,9 +1,5 @@
 /*------------------------------------------------------------------
-Theme Name:	Aviato E-Commerce Template
-Version:	2.0
-Last change:	14/09/2017 
-Author :	Themefisher
-Website :	www.themefisher.com
+
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -2606,6 +2602,7 @@ section#menu {
   z-index: 99;
   position: fixed;
   width: 100%;
+  transition: 0.5s;
 }
 
 .menu {
@@ -2747,6 +2744,8 @@ ul.menu a {
 a.ver-b {
   color: #232323;
   border: 2px solid #fbff0c;
+  background: #fbff0c;
+  font-weight: 600;
   padding: 14px;
   border-radius: 2px;
 }
